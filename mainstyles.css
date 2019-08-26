@@ -11,14 +11,17 @@ body {
     background: rgb(195,99,99);
     height: 53px;
     text-align: center;
+    justify-content: space-between;
+    width: 100%;
 }
-/*
+
 .navbar ul{
     list-style-type: none;
     margin: 0;
 }
 
 .navbar li{
+    display: inline-flex;    
     text-emphasis-color: rgb;
 }
 
@@ -46,11 +49,11 @@ body {
     width: 140px;
     height: 33px;
 }
-*/
+
 
 .logo{
-    background: rgb(37, 129, 211);
     margin: 7px;
     text-align: left;
+    color: rgb(231, 231, 231);
     font: 18pt Viner Hand ITC;
 }

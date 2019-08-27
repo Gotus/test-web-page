@@ -18,6 +18,9 @@ body {
 .navbar ul{
     list-style-type: none;
     margin: 0;
+    
+    margin-right: 247.5px;
+    
 }
 
 .navbar li{
@@ -52,8 +55,12 @@ body {
 
 
 .logo{
+    
     margin: 7px;
-    text-align: left;
+    
+    margin-left: 60px;
+    
+    text-align: center;
     color: rgb(231, 231, 231);
     font: 18pt Viner Hand ITC;
 }

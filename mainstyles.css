@@ -64,3 +64,11 @@ body {
     color: rgb(231, 231, 231);
     font: 18pt Viner Hand ITC;
 }
+
+.recipe-background{
+    width: 200px;
+    height: 100px;
+    margin-left: 100px;
+    margin-top: 20px;
+    background: red;
+}

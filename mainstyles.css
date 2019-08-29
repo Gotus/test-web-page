@@ -17,10 +17,8 @@ body {
 
 .navbar ul{
     list-style-type: none;
-    margin: 0;
-    
+    margin: 0;    
     margin-right: 247.5px;
-    
 }
 
 .navbar li{
@@ -53,22 +51,32 @@ body {
     height: 33px;
 }
 
-
 .logo{
     
     margin: 7px;
-    
     margin-left: 60px;
-    
     text-align: center;
     color: rgb(231, 231, 231);
     font: 18pt Viner Hand ITC;
 }
 
-.recipe-background{
-    width: 200px;
-    height: 100px;
-    margin-left: 100px;
-    margin-top: 20px;
-    background: red;
+main{
+    display: inline;
+}
+
+.recipe-area{
+}
+
+.recipe-area div{
+    display: inline;
+    margin-left: 350px;
+    
+}
+
+.recipe-area div div {
+    display: flex;
+}
+
+.recipe-area div div img{
+    padding: 6px;
 }

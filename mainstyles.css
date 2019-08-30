@@ -5,6 +5,9 @@ body {
     margin: 0px;
 }
 
+main{
+    display: inline;
+}
 
 .navbar {
     display: inline-flex;
@@ -60,17 +63,10 @@ body {
     font: 18pt Viner Hand ITC;
 }
 
-main{
-    display: inline;
-}
-
-.recipe-area{
-}
-
 .recipe-area div{
     display: inline;
     margin-left: 350px;
-    
+    background: rgb(177, 115, 91);
 }
 
 .recipe-area div div {
@@ -79,4 +75,56 @@ main{
 
 .recipe-area div div img{
     padding: 6px;
+}
+
+form {
+    display: inline-block;
+    background: rgb(177, 115, 91);
+    padding-left: 17px;
+    padding-right: 30px;
+}
+
+.calory-value{
+    width: 67px;
+    height: 19px;
+    border-width: 1pt;
+    border-color: rgb(161, 161, 161);
+    border-radius: 3.5px;
+}
+
+.single-text-field{
+    height: 22px;
+    width: 142px;
+    border-width: 1pt;
+    border-color: rgb(161, 161, 161);
+    border-radius: 3.5px;
+}
+
+.button-div{
+    text-align: center;
+}
+
+main{
+    display: flexbox;
+}
+
+.search-header{
+    color: rgb(153, 153, 153);
+    font: 12pt Tahoma;
+    text-decoration: underline;
+}
+
+.form-active-elements{
+    padding-left: 15px;
+    color: rgb(153, 153, 153);
+    font: 12pt Tahoma;
+}
+
+.search-button{
+    width: 140px;
+    height: 33px;
+    border-radius: 0px;
+    border-width: 0px;
+    color:rgb(153, 153, 153);
+    font: 12pt Tahoma;
 }

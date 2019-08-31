@@ -65,7 +65,7 @@ main{
 
 .recipe-area div{
     display: inline;
-    margin-left: 350px;
+    
     background: rgb(177, 115, 91);
 }
 
@@ -127,4 +127,10 @@ main{
     border-width: 0px;
     color:rgb(153, 153, 153);
     font: 12pt Tahoma;
+}
+
+.main-content{
+    display: flex;
+    justify-content: center;
+    padding-right: 15%;
 }

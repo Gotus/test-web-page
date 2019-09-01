@@ -65,6 +65,7 @@ main{
 }
 
 .recipe-area{
+    position: relative;
     padding-top: 31px;
 }
 
@@ -150,7 +151,6 @@ footer{
 }
 
 .copyright{
-    text-decoration: underline;
     padding-right: 1%;
 }
 
@@ -161,4 +161,52 @@ footer{
 
 .recipe-image{
     box-shadow: 5px 5px 5px grey;
+}
+
+.recipe-area div div div .recipe-name1{
+    position: absolute;
+    top: 45px;
+    left: 15px;
+    background: transparent;
+}
+
+.recipe-area div div div .recipe-name2{
+    position: absolute;
+    top: 45px;
+    left: 301px;
+    background: transparent;
+}
+
+.recipe-area div div div .recipe-name3{
+    position: absolute;
+    top: 45px;
+    left: 587px;
+    background: transparent;
+}
+
+.recipe-area div div div .recipe-name4{
+    position: absolute;
+    top: 365px;
+    left: 15px;
+    background: transparent;
+}
+
+.recipe-area div div div .recipe-name5{
+    position: absolute;
+    top: 365px;
+    left: 301px;
+    background: transparent;
+}
+
+.recipe-area div div div .recipe-name6{
+    position: absolute;
+    top: 365px;
+    left: 587px;
+    background: transparent;
+}
+
+.recipe-area{
+    font: 16.57pt Source Code Pro;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 4px #000000;
 }

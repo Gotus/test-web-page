@@ -47,6 +47,7 @@ main{
 .registerButton {
     background: rgb(231, 231, 231);
     color: rgb(195, 99, 99);
+    margin-left: 16px;
     text-align: center;
     font: bold 12pt Tahoma;
     border: 0;
@@ -63,10 +64,13 @@ main{
     font: 18pt Viner Hand ITC;
 }
 
+.recipe-area{
+    padding-top: 31px;
+}
+
 .recipe-area div{
     display: inline;
-    
-    background: rgb(177, 115, 91);
+    background: rgb(245, 245, 245);
 }
 
 .recipe-area div div {
@@ -74,12 +78,12 @@ main{
 }
 
 .recipe-area div div img{
-    padding: 6px;
+    margin: 6px;
 }
 
 form {
     display: inline-block;
-    background: rgb(177, 115, 91);
+    /*background: rgb(177, 115, 91);*/
     padding-left: 17px;
     padding-right: 30px;
 }
@@ -133,4 +137,28 @@ main{
     display: flex;
     justify-content: center;
     padding-right: 15%;
+}
+
+footer div{
+    display: inline;
+    color: rgb(153, 153, 153);
+}
+
+footer{
+    text-align: center;
+    font: 12pt Tahoma;
+}
+
+.copyright{
+    text-decoration: underline;
+    padding-right: 1%;
+}
+
+.dev-info{
+    text-decoration: underline;
+    padding-left: 1%;
+}
+
+.recipe-image{
+    box-shadow: 5px 5px 5px grey;
 }

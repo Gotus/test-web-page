@@ -150,13 +150,19 @@ footer{
     font: 12pt Tahoma;
 }
 
+footer div{
+    background: rgb(255, 255, 255);
+}
+
 .copyright{
     padding-right: 1%;
+    padding-left: 13.99%;
 }
 
 .dev-info{
     text-decoration: underline;
     padding-left: 1%;
+    padding-right: 13.99%;
 }
 
 .recipe-image{
